@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A0746B782C04BC56000D6858 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0746B772C04BC56000D6858 /* main.cpp */; };
+		A0746B8A2C04D6A4000D6858 /* tinyexpr.c in Sources */ = {isa = PBXBuildFile; fileRef = A0746B892C04D6A4000D6858 /* tinyexpr.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		A0746B742C04BC56000D6858 /* RPOP_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPOP_3; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0746B772C04BC56000D6858 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A0746B7F2C04BD9C000D6858 /* input2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input2.txt; sourceTree = "<group>"; };
+		A0746B802C04BDC8000D6858 /* input1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input1.txt; sourceTree = "<group>"; };
+		A0746B882C04D650000D6858 /* tinyexpr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinyexpr.h; path = ../../../Downloads/tinyexpr.h; sourceTree = "<group>"; };
+		A0746B892C04D6A4000D6858 /* tinyexpr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tinyexpr.c; path = ../../../Downloads/tinyexpr.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,10 @@
 		A0746B762C04BC56000D6858 /* RPOP_3 */ = {
 			isa = PBXGroup;
 			children = (
+				A0746B892C04D6A4000D6858 /* tinyexpr.c */,
+				A0746B882C04D650000D6858 /* tinyexpr.h */,
+				A0746B802C04BDC8000D6858 /* input1.txt */,
+				A0746B7F2C04BD9C000D6858 /* input2.txt */,
 				A0746B772C04BC56000D6858 /* main.cpp */,
 			);
 			path = RPOP_3;
@@ -118,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0746B8A2C04D6A4000D6858 /* tinyexpr.c in Sources */,
 				A0746B782C04BC56000D6858 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,5 @@
+int a = 5;
+int b;
+char c;
+bool d;
+b = a + b;
